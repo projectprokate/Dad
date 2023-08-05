@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+   
+    <div class="container">
+        <div class="text">
+            <span id="typed"></span>
+          </div>
+      </div>
+      
+    <script>
+      var options = {
+        strings: [
+          `<span>Hey dad,</span>^1000\n\nYou're amazing.\n\n`,
+          `You are a role model champion.`,
+          `You are a resource legend.`,
+          `You are a dog walking star.`,
+          'You are a <span class="line-through">dog walking star</span> second in command dog walker ;)',
+          `You are a photography expert.`,
+          'You are a <span class="line-through">photography</span> computer expert.',
+          'You are a <span class="line-through">computer</span> house-building expert.', 
+          'You are a <span class="line-through">house-building</span> everything expert.',
+          'You are the life expert.',
+          'You are an amazing TEACHER.^1800\n\nAnd a loving supporter behind the scenes.\n\n',
+          `Here’s a THANK YOU from your daughter.^1000\n\nFor^1000 realizing when I need help...`,
+          `Here’s a THANK YOU from your daughter.\n\nFor always being there for me...`,
+          `Here’s a THANK YOU from your daughter.\n\nFor supporting me...^1000\n\nBut still letting me be me.`,
+          `You are truly appreciated more than ever.`,
+          `Everyone has a lot to learn from you.^1000\n\nAnd you share it one conversation at a time...^1000\n\nWith your kids.`,
+          `Everyone has a lot to learn from you.\n\nAnd you share it one pet at a time...\n\nWith your four-legged friends.`,
+          `Everyone has a lot to learn from you.\n\nAnd you are modeling it one day at a time...\n\nTo the world.`,
+          `So thank you!`,
+          `From the bottom of my heart!`,
+          `May this year, and the next`, 
+          `and the next . . . `,
+          `be filled with great memories and more timeless conversations.`
+          `I love u ❤️ ❤️ ❤️`
+        ],
+        typeSpeed: 40,
+        backSpeed: 10,
+        backDelay: 1500,
+        smartBackspace: true
+      };
+
+      var typed = new Typed("#typed", options);
+    </script>
+  </body>
+</html>
